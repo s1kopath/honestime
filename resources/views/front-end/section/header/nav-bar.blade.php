@@ -5,12 +5,12 @@
                 <div class="uk-navbar-left">
                     <div class="uk-navbar-item">
                         <a class="uk-logo" href="/">
-                            {{-- <img src="{{ asset('front-end/img/in-lazy.gif') }}"
-                                data-src="{{ asset('front-end/img/user/header-logo-Uw3Zp9.svg') }}" alt="logo"
-                                width="146" height="40" data-uk-img> --}}
-                            <span class="uk-h5">
+                            <img src="{{ asset('front-end/img/in-lazy.gif') }}"
+                                data-src="{{ asset('front-end/img/logo.jpg') }}" alt="logo"
+                                width="146" height="40" data-uk-img>
+                            {{-- <span class="uk-h5">
                                 RIJVI & RODH GENERAL TRADING LLC
-                            </span>
+                            </span> --}}
                         </a>
                         <ul class="uk-navbar-nav uk-visible@m">
                             <li>

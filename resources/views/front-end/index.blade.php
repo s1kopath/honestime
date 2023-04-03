@@ -2,7 +2,7 @@
 
 @section('content')
     <!-- slideshow content begin -->
-    <div class="uk-section uk-padding-remove-vertical in-slideshow-gradient">
+    {{-- <div class="uk-section uk-padding-remove-vertical in-slideshow-gradient">
         <div id="particles-js" class="uk-light in-slideshow uk-background-contain"
             data-src="{{ asset('front-end/img/in-equity-decor-1.svg') }}" data-uk-img data-uk-slideshow>
             <hr>
@@ -298,8 +298,54 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> --}}
     <!-- slideshow content end -->
+
+    <div class="bd-example">
+        <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="{{ asset('front-end/img/slider/slider-1.jpg') }}" class="d-block w-100" alt="...">
+                    {{-- <div class="carousel-caption d-none d-md-block">
+                        <h5>Export</h5>
+                    </div> --}}
+                </div>
+                <div class="carousel-item">
+                    <img src="{{ asset('front-end/img/slider/slider-2.jpg') }}" class="d-block w-100" alt="...">
+                    {{-- <div class="carousel-caption d-none d-md-block">
+                        <h5>Import</h5>
+                    </div> --}}
+                </div>
+                <div class="carousel-item">
+                    <img src="{{ asset('front-end/img/slider/slider-3.jpg') }}" class="d-block w-100" alt="...">
+                    {{-- <div class="carousel-caption d-none d-md-block">
+                        <h5>Manpower</h5>
+                    </div> --}}
+                </div>
+                <div class="carousel-item">
+                    <img src="{{ asset('front-end/img/slider/slider-2.jpg') }}" class="d-block w-100" alt="...">
+                    {{-- <div class="carousel-caption d-none d-md-block">
+                        <h5>E-Commerce</h5>
+                    </div> --}}
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+
 
     <!-- section content begin -->
     <div class="uk-section uk-section-primary uk-preserve-color in-equity-1" id="services">
@@ -317,7 +363,7 @@
                             <span class="in-product-name red">EQ</span>
                             <h5 class="uk-margin-remove">Export</h5>
                         </div>
-                        <p style="color: #b4b4cc">
+                        <p class="text-white">
                             Exporting refers to the selling of goods and services from the home country to a foreign
                             nation...
                         </p>
@@ -332,7 +378,7 @@
                             <span class="in-product-name green">LQ</span>
                             <h5 class="uk-margin-remove">Import</h5>
                         </div>
-                        <p style="color: #b4b4cc">
+                        <p class="text-white">
                             Importing refers to the purchase of foreign products and bringing them into one's home
                             country...
                         </p>
@@ -347,8 +393,9 @@
                             <span class="in-product-name orange">FB</span>
                             <h5 class="uk-margin-remove">Manpower</h5>
                         </div>
-                        <p style="color: #b4b4cc">
-                            Manpower is the total number of people who can work to get something done. How quickly you clean...
+                        <p class="text-white">
+                            Manpower is the total number of people who can work to get something done. How quickly you
+                            clean...
                         </p>
                         <a href="{{ route('forex_broker') }}"
                             class="uk-button uk-button-text uk-float-right uk-position-bottom-right">Explore<i
@@ -361,7 +408,7 @@
                             <span class="in-product-name blue">FU</span>
                             <h5 class="uk-margin-remove">E-Commerce</h5>
                         </div>
-                        <p style="color: #b4b4cc">
+                        <p class="text-white">
                             Our company is focused on maximizing returns for our investors by investing their funds in the
                             e-commerce market....
                         </p>
@@ -377,78 +424,76 @@
 
     <!-- section content begin -->
     <div class="uk-section uk-section-primary uk-preserve-color in-equity-1" id="about">
-        <div class="uk-container">
-            <div class="uk-grid">
-                <div class="uk-width-1-1 uk-flex uk-flex-center">
-                    <div class="uk-width-3-5@m uk-text-center">
-                        <h1 class="uk-margin-remove-bottom">Putting our clients first <span class="in-highlight">since
-                                1986</span></h1>
-                        <p class="uk-text-lead text-white uk-margin-small-top">
-                            Welcome to our company, where we strive to provide our investors with high returns while
-                            ensuring their money is always safe in our hands. Our company is dedicated to making investments
-                            in various markets, including Stacking NFT, Forex trading, e-commerce, and Forex broker.
+        <div class="uk-grid">
+            <div class="uk-width-1-1 uk-flex uk-flex-center">
+                <div class="uk-width-3-5@m uk-text-center">
+                    <h1 class="uk-margin-remove-bottom">RIJVI & RODH GENERAL TRADING LLC</h1>
+                    <p class="uk-text-lead text-white uk-margin-small-top">
+                        Welcome to our company, where we strive to provide our investors with high returns while
+                        ensuring their money is always safe in our hands. Our company is dedicated to making investments
+                        in various markets, including Stacking NFT, Forex trading, e-commerce, and Forex broker.
+                    </p>
+                </div>
+            </div>
+            <div class="uk-grid uk-grid-large uk-child-width-1-3@m uk-margin-medium-top" data-uk-grid>
+                <div class="uk-flex uk-flex-left">
+                    <div class="uk-margin-right">
+                        <div class="in-icon-wrap secondary-color">
+                            <i class="fas fa-leaf fa-lg"></i>
+                        </div>
+                    </div>
+                    <div>
+                        <h3>Philosophy</h3>
+                        <p class="uk-margin-remove-bottom text-dark">At our company, we believe that investment
+                            opportunities
+                            should be accessible to everyone, regardless of their financial background or investment
+                            experience. Therefore, we work hard to provide our clients with the best investment
+                            solutions that meet their needs and goals.
                         </p>
                     </div>
                 </div>
-                <div class="uk-grid uk-grid-large uk-child-width-1-3@m uk-margin-medium-top" data-uk-grid>
-                    <div class="uk-flex uk-flex-left">
-                        <div class="uk-margin-right">
-                            <div class="in-icon-wrap secondary-color">
-                                <i class="fas fa-leaf fa-lg"></i>
-                            </div>
-                        </div>
-                        <div>
-                            <h3>Philosophy</h3>
-                            <p class="uk-margin-remove-bottom text-secondary">At our company, we believe that investment
-                                opportunities
-                                should be accessible to everyone, regardless of their financial background or investment
-                                experience. Therefore, we work hard to provide our clients with the best investment
-                                solutions that meet their needs and goals.
-                            </p>
+                <div class="uk-flex uk-flex-left">
+                    <div class="uk-margin-right">
+                        <div class="in-icon-wrap secondary-color">
+                            <i class="fas fa-hourglass-end fa-lg"></i>
                         </div>
                     </div>
-                    <div class="uk-flex uk-flex-left">
-                        <div class="uk-margin-right">
-                            <div class="in-icon-wrap secondary-color">
-                                <i class="fas fa-hourglass-end fa-lg"></i>
-                            </div>
-                        </div>
-                        <div>
-                            <h3>History</h3>
-                            <p class="uk-margin-remove-bottom text-secondary">
-                                We also believe in transparency and accountability, which is why we provide our clients with
-                                regular updates and reports on their investments. Our customer support team is always
-                                available to answer any questions or concerns our clients may have.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="uk-flex uk-flex-left">
-                        <div class="uk-margin-right">
-                            <div class="in-icon-wrap secondary-color">
-                                <i class="fas fa-flag fa-lg"></i>
-                            </div>
-                        </div>
-                        <div>
-                            <h3>Culture</h3>
-                            <p class="uk-margin-remove-bottom text-secondary">
-                                At our company, we are dedicated to providing our clients with exceptional investment
-                                opportunities and services that exceed their expectations. We are committed to building
-                                long-term relationships with our clients and
-                                helping them achieve their financial goals
-                            </p>
-                        </div>
+                    <div>
+                        <h3>History</h3>
+                        <p class="uk-margin-remove-bottom text-dark">
+                            We also believe in transparency and accountability, which is why we provide our clients with
+                            regular updates and reports on their investments. Our customer support team is always
+                            available to answer any questions or concerns our clients may have.
+                        </p>
                     </div>
                 </div>
-                <div class="uk-width-1-1 uk-flex uk-flex-center">
-                    <div class="uk-width-3-5@m uk-text-center">
-                        <p class="uk-text-lead text-white uk-margin-small-top">
-                            Thank you for considering our company as your investment partner. We look forward to helping you
-                            achieve financial success.
+                <div class="uk-flex uk-flex-left">
+                    <div class="uk-margin-right">
+                        <div class="in-icon-wrap secondary-color">
+                            <i class="fas fa-flag fa-lg"></i>
+                        </div>
+                    </div>
+                    <div>
+                        <h3>Culture</h3>
+                        <p class="uk-margin-remove-bottom text-dark">
+                            At our company, we are dedicated to providing our clients with exceptional investment
+                            opportunities and services that exceed their expectations. We are committed to building
+                            long-term relationships with our clients and
+                            helping them achieve their financial goals
                         </p>
                     </div>
                 </div>
             </div>
+            <div class="uk-width-1-1 uk-flex uk-flex-center">
+                <div class="uk-width-3-5@m uk-text-center">
+                    <p class="uk-text-lead text-white uk-margin-small-top">
+                        Thank you for considering our company as your investment partner. We look forward to helping you
+                        achieve financial success.
+                    </p>
+                </div>
+            </div>
         </div>
+    </div>
     </div>
     <!-- section content end -->
 
@@ -938,5 +983,4 @@
         </div>
     </div>
     <!-- section content end -->
-
 @endsection

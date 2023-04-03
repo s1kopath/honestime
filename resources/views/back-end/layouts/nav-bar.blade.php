@@ -4,7 +4,7 @@
     }
 </style>
 
-<nav class="navbar header-navbar pcoded-header" style="background: #091b65;">
+<nav class="navbar header-navbar pcoded-header" style="background: #a23d10;">
     <div class="navbar-wrapper">
         <div class="navbar-logo">
             @if (auth()->user()->user_type == 'public')
