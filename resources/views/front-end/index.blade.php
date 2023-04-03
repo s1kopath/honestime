@@ -445,8 +445,7 @@
                     </div>
                     <div>
                         <h3>Mission</h3>
-                        <p class="uk-margin-remove-bottom text-white"
-                            style="text-align: justify; text-justify: inter-word;">
+                        <p class="uk-margin-remove-bottom text-white mr-2">
                             Our mission is to facilitate global trade by providing high-quality products and services that
                             exceed the expectations of our customers. We are committed to ethical business practices,
                             transparency, and integrity in all our dealings. We strive to build lasting relationships with
@@ -457,14 +456,13 @@
                 </div>
                 <div class="uk-flex uk-flex-left">
                     <div class="uk-margin-right">
-                        <div class="in-icon-wrap">
+                        <div class="in-icon-wrap ml-2">
                             <img src="{{ asset('front-end/img/icon/2.png') }}" width="50px" alt="R&R">
                         </div>
                     </div>
                     <div>
                         <h3>Vision</h3>
-                        <p class="uk-margin-remove-bottom text-white"
-                            style="text-align: justify; text-justify: inter-word;">
+                        <p class="uk-margin-remove-bottom text-white mr-2">
                             Our vision is to become a global leader in the export-import industry by providing innovative
                             solutions that enable our customers to achieve their business objectives. We aim to be
                             recognized for our exceptional quality, customer service, and ethical business practices. We
@@ -475,14 +473,13 @@
                 </div>
                 <div class="uk-flex uk-flex-left">
                     <div class="uk-margin-right">
-                        <div class="in-icon-wrap">
+                        <div class="in-icon-wrap ml-2">
                             <img src="{{ asset('front-end/img/icon/3.png') }}" width="50px" alt="R&R">
                         </div>
                     </div>
                     <div>
                         <h3>Goals</h3>
-                        <p class="uk-margin-remove-bottom text-white mr-2"
-                            style="text-align: justify; text-justify: inter-word;">
+                        <p class="uk-margin-remove-bottom text-white mr-2">
                             Our goal is to expand our global reach and increase our market share by providing high-quality
                             products and services that meet the unique needs of our customers. We aim to achieve this by,
                             Building lasting relationships with our clients, suppliers, and partners based on mutual trust,
