@@ -1,0 +1,81 @@
+/* custom input design */
+.ms-fieldset {
+    border: 1px solid #060606;
+}
+
+.ms-legend {
+    color: #777777;
+    font-size: 14px;
+    margin-bottom: -9px;
+}
+
+.ms-input {
+    background: transparent;
+    border: none;
+    outline: 0;
+    font-size: 16px;
+    height: 1.5em !important;
+    color: black;
+}
+
+.ms-input:hover,
+.ms-input:focus {
+    outline: 0 !important;
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0) !important;
+}
+
+.ms-input:disabled, .ms-input[readonly] {
+    background-color: #ffffff !important;
+    opacity: 1;
+}
+
+.ms-input:hover, .ms-input:focus {
+    border: none !important;
+}
+
+/* custom input design end*/
+
+
+.profile-header-avatar {
+    width: 60px;
+    height: 60px;
+    -webkit-border-radius: 60px;
+    -webkit-background-clip: padding-box;
+    -moz-border-radius: 60px;
+    -moz-background-clip: padding;
+    border-radius: 60px;
+    background-clip: padding-box;
+    margin: 7px 0 0 5px;
+    float: left;
+    background-size: cover;
+    background-position: center center;
+}
+
+
+.nav-link {
+    font-size: 18px !important;
+}
+
+.jss619 {
+    color: white;
+    transition: 0.5s;
+    background: linear-gradient(113.45deg, #742DCE 0%, #050B99 51%, #742DCE 100%);
+    font-weight: 700;
+    background-size: 200% auto;
+    background-color: #ffffff;
+    padding: 10px 24px;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    width: 186px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.btn-cus-jss619 {
+    color: white;
+    transition: 0.5s;
+    background: linear-gradient(113.45deg, #742DCE 0%, #050B99 51%, #742DCE 100%);
+    background-color: #ffffff;
+    font-weight: 700;
+}
