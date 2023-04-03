@@ -429,57 +429,66 @@
                 <div class="uk-width-3-5@m uk-text-center">
                     <h1 class="uk-margin-remove-bottom">RIJVI & RODH GENERAL TRADING LLC</h1>
                     <p class="uk-text-lead text-white uk-margin-small-top">
-                        Welcome to our company, where we strive to provide our investors with high returns while
-                        ensuring their money is always safe in our hands. Our company is dedicated to making investments
-                        in various markets, including Stacking NFT, Forex trading, e-commerce, and Forex broker.
+                        At RIJVI & RODH General Trading LLC., we are a leading export-import company that specializes in
+                        facilitating the international trade of goods and services between countries. With 10 years of
+                        experience in the industry, we have built a reputation for excellence in quality, customer service,
+                        and ethical business practices.
                     </p>
                 </div>
             </div>
             <div class="uk-grid uk-grid-large uk-child-width-1-3@m uk-margin-medium-top" data-uk-grid>
                 <div class="uk-flex uk-flex-left">
                     <div class="uk-margin-right">
-                        <div class="in-icon-wrap secondary-color">
-                            <i class="fas fa-leaf fa-lg"></i>
+                        <div class="in-icon-wrap ml-2">
+                            <img src="{{ asset('front-end/img/icon/1.png') }}" width="50px" alt="R&R">
                         </div>
                     </div>
                     <div>
-                        <h3>Philosophy</h3>
-                        <p class="uk-margin-remove-bottom text-dark">At our company, we believe that investment
-                            opportunities
-                            should be accessible to everyone, regardless of their financial background or investment
-                            experience. Therefore, we work hard to provide our clients with the best investment
-                            solutions that meet their needs and goals.
+                        <h3>Mission</h3>
+                        <p class="uk-margin-remove-bottom text-white"
+                            style="text-align: justify; text-justify: inter-word;">
+                            Our mission is to facilitate global trade by providing high-quality products and services that
+                            exceed the expectations of our customers. We are committed to ethical business practices,
+                            transparency, and integrity in all our dealings. We strive to build lasting relationships with
+                            our clients, suppliers, and partners based on mutual trust, respect, and shared goals. We
+                            embrace innovation, flexibility, and continuous improvement in all aspects of our business.
                         </p>
                     </div>
                 </div>
                 <div class="uk-flex uk-flex-left">
                     <div class="uk-margin-right">
-                        <div class="in-icon-wrap secondary-color">
-                            <i class="fas fa-hourglass-end fa-lg"></i>
+                        <div class="in-icon-wrap">
+                            <img src="{{ asset('front-end/img/icon/2.png') }}" width="50px" alt="R&R">
                         </div>
                     </div>
                     <div>
-                        <h3>History</h3>
-                        <p class="uk-margin-remove-bottom text-dark">
-                            We also believe in transparency and accountability, which is why we provide our clients with
-                            regular updates and reports on their investments. Our customer support team is always
-                            available to answer any questions or concerns our clients may have.
+                        <h3>Vision</h3>
+                        <p class="uk-margin-remove-bottom text-white"
+                            style="text-align: justify; text-justify: inter-word;">
+                            Our vision is to become a global leader in the export-import industry by providing innovative
+                            solutions that enable our customers to achieve their business objectives. We aim to be
+                            recognized for our exceptional quality, customer service, and ethical business practices. We
+                            are committed to building a sustainable business that creates value for our shareholders and
+                            contributes to the development of the communities where we operate.
                         </p>
                     </div>
                 </div>
                 <div class="uk-flex uk-flex-left">
                     <div class="uk-margin-right">
-                        <div class="in-icon-wrap secondary-color">
-                            <i class="fas fa-flag fa-lg"></i>
+                        <div class="in-icon-wrap">
+                            <img src="{{ asset('front-end/img/icon/3.png') }}" width="50px" alt="R&R">
                         </div>
                     </div>
                     <div>
-                        <h3>Culture</h3>
-                        <p class="uk-margin-remove-bottom text-dark">
-                            At our company, we are dedicated to providing our clients with exceptional investment
-                            opportunities and services that exceed their expectations. We are committed to building
-                            long-term relationships with our clients and
-                            helping them achieve their financial goals
+                        <h3>Goals</h3>
+                        <p class="uk-margin-remove-bottom text-white mr-2"
+                            style="text-align: justify; text-justify: inter-word;">
+                            Our goal is to expand our global reach and increase our market share by providing high-quality
+                            products and services that meet the unique needs of our customers. We aim to achieve this by,
+                            Building lasting relationships with our clients, suppliers, and partners based on mutual trust,
+                            respect, and shared goals.
+                            Ensuring exceptional quality in all our products and services through rigorous testing and
+                            quality control measures.
                         </p>
                     </div>
                 </div>
@@ -487,8 +496,7 @@
             <div class="uk-width-1-1 uk-flex uk-flex-center">
                 <div class="uk-width-3-5@m uk-text-center">
                     <p class="uk-text-lead text-white uk-margin-small-top">
-                        Thank you for considering our company as your investment partner. We look forward to helping you
-                        achieve financial success.
+                        Contact us today to learn how we can help you achieve your global trade objectives.
                     </p>
                 </div>
             </div>
