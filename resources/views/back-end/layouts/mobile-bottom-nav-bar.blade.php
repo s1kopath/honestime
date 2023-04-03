@@ -9,7 +9,7 @@
         transform: translateZ(0);
         display: flex;
         height: 60px;
-        background-color: #a23d10;
+        background-color: #bc5020;
         color: white;
     }
 

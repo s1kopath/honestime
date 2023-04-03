@@ -9,7 +9,7 @@
                                 width="50" data-uk-img>
 
                             <span class="uk-h5">
-                                RIJVI & RODH <small class="ml-sm-5">GENERAL TRADING LLC</small>
+                                RIJVI & RODH <small class="">GENERAL TRADING LLC</small>
                             </span>
                         </a>
                         <ul class="uk-navbar-nav uk-visible@m">

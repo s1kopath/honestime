@@ -8,7 +8,7 @@
     <meta name="description" content="RIJVI & RODH, an import-export company">
     <meta name="keywords" content="blockit, uikit3, indonez, handlebars, scss, javascript">
     <meta name="author" content="Global fast Coder">
-    <meta name="theme-color" content="#a23d10" />
+    <meta name="theme-color" content="#bc5020" />
 
     <!-- Favicon -->
     <link rel="shortcut icon" href="{{ asset('front-end/img/favicon-32x32.png') }}" type="image/x-icon">

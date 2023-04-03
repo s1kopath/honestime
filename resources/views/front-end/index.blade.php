@@ -425,11 +425,11 @@
     <!-- section content begin -->
     <div class="uk-section uk-section-primary uk-preserve-color in-equity-1" id="about">
         <div class="uk-grid">
-            <div class="uk-width-1-1 uk-flex uk-flex-center">
+            <div class="uk-width-1-1 uk-flex uk-flex-center bg-white py-5">
                 <div class="uk-width-3-5@m uk-text-center">
-                    <h1 class="uk-margin-remove-bottom">RIJVI & RODH GENERAL TRADING LLC</h1>
-                    <p class="uk-text-lead text-white uk-margin-small-top">
-                        At RIJVI & RODH General Trading LLC., we are a leading export-import company that specializes in
+                    <h1 class="uk-margin-remove-bottom text-dark">RIJVI & RODH GENERAL TRADING LLC</h1>
+                    <p class="uk-text-lead text-white uk-margin-small-top text-dark">
+                        We are a leading export-import company that specializes in
                         facilitating the international trade of goods and services between countries. With 10 years of
                         experience in the industry, we have built a reputation for excellence in quality, customer service,
                         and ethical business practices.
@@ -519,55 +519,54 @@
                         <div class="uk-width-expand">
                             <h3 class="text-dark">Why trade with our Company?</h3>
                             <p>
-                                At our company, we believe that investment opportunities should be accessible to everyone,
-                                regardless of their financial background or investment experience. Therefore, we work hard
-                                to provide our clients with the best investment solutions that meet their needs and goals.
+                                Working with RIJVI & RODH General Trading LLC can help you navigate the complex world of
+                                international trade with ease. Our team of experts has extensive knowledge and experience in
+                                the industry, and we are committed to providing exceptional quality, customer service, and
+                                ethical business practices.
                                 <br>
                                 <br>
-                                We understand that the safety of our clients' funds is paramount, and we have implemented
-                                robust security measures to ensure the safety and integrity of their investments. Our
-                                clients can rest assured that their funds are in good hands and that we will always act in
-                                their best interests.
+                                At RIJVI & RODH General Trading LLC, we are dedicated to helping our clients achieve their
+                                global trade objectives while creating sustainable value for our shareholders and
+                                contributing to the economic growth and development of the communities where we operate.
+                                Contact us today to learn more about how we can help you succeed in the global marketplace.
                             </p>
-
                         </div>
                     </div>
                 </div>
                 <div class="uk-width-1-2@m">
+                    <h3 class="text-center text-dark">
+                        By partnering with us, you can expect the following benefits:
+                    </h3>
                     <div class="uk-grid uk-child-width-1-1 uk-child-width-1-2@m">
                         <div>
                             <ul class="uk-list in-list-check">
                                 <li>
-                                    We offer competitive returns on investments, with the potential for high returns
+                                    Access to a wide range of high-quality products and services that meet your unique needs
+                                    and requirements
                                 </li>
                                 <li>
-                                    We provide our clients with educational resources and guidance on investment strategies
+                                    A customized approach to global trade that is tailored to your specific industry and
+                                    business objectives
                                 </li>
                                 <li>
-                                    We believe in a diversified investment strategy that minimizes risks and maximizes
-                                    returns
-                                </li>
-                                <li>
-                                    Our investment solutions are designed to help our clients build wealth over the long
-                                    term
+                                    A trusted partner that is committed to building lasting relationships based on mutual
+                                    trust, respect, and shared goals
                                 </li>
                             </ul>
                         </div>
                         <div>
                             <ul class="uk-list in-list-check">
                                 <li>
-                                    We have a customer support team available to answer any questions or concerns our
-                                    clients may have
+                                    Responsive and reliable customer service that is available to assist you at every stage
+                                    of the trade process
                                 </li>
                                 <li>
-                                    We provide excellent customer service, with a focus on meeting our clients' needs and
-                                    expectations
+                                    Competitive pricing and flexible payment options that fit your budget and cash flow
+                                    needs
                                 </li>
                                 <li>
-                                    We offer flexible investment options to suit our clients' needs and investment goals
-                                </li>
-                                <li>
-                                    Our investment solutions are designed to generate passive income for our clients
+                                    Expert guidance on international trade regulations and requirements, including customs
+                                    clearance, import/export documentation, and compliance with local laws and regulations
                                 </li>
                             </ul>
                         </div>

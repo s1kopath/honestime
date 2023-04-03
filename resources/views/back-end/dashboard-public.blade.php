@@ -47,7 +47,7 @@
 @section('dashboard-extra')
     {{-- user details section is hidden in sidebar on mobile and showen in dashobard  --}}
     <div class="d-block d-lg-none">
-        <div class="d-flex justify-content-between pb-2" style="background-color: #a23d10;">
+        <div class="d-flex justify-content-between pb-2" style="background-color: #bc5020;">
             <div class="col-4">
                 <img class="profile-header-avatar" src="{{ auth()->user()->userToUserDetails->pic }}" data-toggle="modal"
                     data-target="#exampleModal" id="myImg" alt="RIJVI & RODH" type="button">
