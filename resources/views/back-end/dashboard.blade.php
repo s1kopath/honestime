@@ -8,34 +8,15 @@
                 <div class="card-body">
                     <div class="row align-items-center m-b-30">
                         <div class="col">
-                            <h6 class="m-b-5 text-white">Total User</h6>
-                            <h3 class="m-b-0 f-w-700 text-white">{{ $user_count }}</h3>
+                            <h6 class="m-b-5 text-white">Total Visitors</h6>
+                            <h3 class="m-b-0 f-w-700 text-white">0</h3>
                         </div>
                         <div class="col-auto">
                             <i class="fas fa-money-bill-alt text-c-red f-18"></i>
                         </div>
                     </div>
                     <p class="m-b-0 text-white">
-                        <span class="label label-danger m-r-10">+{{ $user_count_last_month }}</span>
-                        Previous Month
-                    </p>
-                </div>
-            </div>
-        </div>
-        <div class="col-xl-3 col-md-6">
-            <div class="card prod-p-card card-blue">
-                <div class="card-body">
-                    <div class="row align-items-center m-b-30">
-                        <div class="col">
-                            <h6 class="m-b-5 text-white">Total IB</h6>
-                            <h3 class="m-b-0 f-w-700 text-white">{{ $ib_count }}</h3>
-                        </div>
-                        <div class="col-auto">
-                            <i class="fas fa-database text-c-blue f-18"></i>
-                        </div>
-                    </div>
-                    <p class="m-b-0 text-white">
-                        <span class="label label-primary m-r-10">+{{ $ib_count_last_month }}</span>
+                        <span class="label label-danger m-r-10">+0</span>
                         Previous Month
                     </p>
                 </div>
@@ -46,15 +27,15 @@
                 <div class="card-body">
                     <div class="row align-items-center m-b-30">
                         <div class="col">
-                            <h6 class="m-b-5 text-white">Total Staking</h6>
-                            <h3 class="m-b-0 f-w-700 text-white">${{ $total_staking }}</h3>
+                            <h6 class="m-b-5 text-white">Total Export</h6>
+                            <h3 class="m-b-0 f-w-700 text-white">$0</h3>
                         </div>
                         <div class="col-auto">
                             <i class="fas fa-dollar-sign text-c-green f-18"></i>
                         </div>
                     </div>
                     <p class="m-b-0 text-white">
-                        <span class="label label-success m-r-10">+{{ $total_staking_last_month }}$</span>
+                        <span class="label label-success m-r-10">+$0</span>
                         Previous Month
                     </p>
                 </div>
@@ -65,7 +46,7 @@
                 <div class="card-body">
                     <div class="row align-items-center m-b-30">
                         <div class="col">
-                            <h6 class="m-b-5 text-white">Active Contest</h6>
+                            <h6 class="m-b-5 text-white">Total Import</h6>
                             <h3 class="m-b-0 f-w-700 text-white">0</h3>
                         </div>
                         <div class="col-auto">
@@ -74,6 +55,25 @@
                     </div>
                     <p class="m-b-0 text-white">
                         <span class="label label-warning m-r-10">+0%</span>From
+                        Previous Month
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-xl-3 col-md-6">
+            <div class="card prod-p-card card-blue">
+                <div class="card-body">
+                    <div class="row align-items-center m-b-30">
+                        <div class="col">
+                            <h6 class="m-b-5 text-white">Total Revinuses</h6>
+                            <h3 class="m-b-0 f-w-700 text-white">0</h3>
+                        </div>
+                        <div class="col-auto">
+                            <i class="fas fa-database text-c-blue f-18"></i>
+                        </div>
+                    </div>
+                    <p class="m-b-0 text-white">
+                        <span class="label label-primary m-r-10">+0</span>
                         Previous Month
                     </p>
                 </div>

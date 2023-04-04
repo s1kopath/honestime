@@ -23,7 +23,7 @@
                             <br>
                             <small>{{ auth()->user()->email }}</small>
                             <br>
-                            <span class="font-weight-bold text-danger">Admin Account</span>
+                            <span class="font-weight-bold text-dark">Admin Account</span>
                         </div>
                     </div>
                     <ul class="pcoded-item pcoded-left-item">
@@ -34,7 +34,8 @@
                             </a>
                         </li>
                     </ul>
-                    <div class="pcoded-navigation-label">Users</div>
+
+                    {{-- <div class="pcoded-navigation-label">Users</div>
                     <ul class="pcoded-item pcoded-left-item">
                         <li class="pcoded-hasmenu {{ $lastElement == 'users' ? 'active pcoded-trigger' : '' }}">
                             <a href="javascript:void(0)" class="waves-effect waves-dark">
@@ -86,10 +87,9 @@
                                 </li>
                             </ul>
                         </li>
-                    </ul>
+                    </ul> --}}
 
-
-                    <div class="pcoded-navigation-label">ROI</div>
+                    {{-- <div class="pcoded-navigation-label">ROI</div>
                     <ul class="pcoded-item pcoded-left-item">
                         <li class="pcoded-hasmenu {{ $lastElement == 'rois' ? 'active pcoded-trigger' : '' }}">
                             <a href="javascript:void(0)" class="waves-effect waves-dark">
@@ -111,8 +111,9 @@
                                 </li>
                             </ul>
                         </li>
-                    </ul>
-                    <div class="pcoded-navigation-label">ROYALITY</div>
+                    </ul> --}}
+
+                    {{-- <div class="pcoded-navigation-label">ROYALITY</div>
                     <ul class="pcoded-item pcoded-left-item">
                         <li class="pcoded-hasmenu {{ $lastElement == 'royality' ? 'active pcoded-trigger' : '' }}">
                             <a href="javascript:void(0)" class="waves-effect waves-dark">
@@ -134,9 +135,9 @@
                                 </li>
                             </ul>
                         </li>
-                    </ul>
+                    </ul> --}}
 
-                    <div class="pcoded-navigation-label">GIFT</div>
+                    {{-- <div class="pcoded-navigation-label">GIFT</div>
                     <ul class="pcoded-item pcoded-left-item">
                         <li class="pcoded-hasmenu {{ $lastElement == 'gift' ? 'active pcoded-trigger' : '' }}">
                             <a href="javascript:void(0)" class="waves-effect waves-dark">
@@ -158,9 +159,9 @@
                                 </li>
                             </ul>
                         </li>
-                    </ul>
+                    </ul> --}}
 
-                    <div class="pcoded-navigation-label">CONTEST</div>
+                    {{-- <div class="pcoded-navigation-label">CONTEST</div>
                     <ul class="pcoded-item pcoded-left-item">
                         <li class="pcoded-hasmenu {{ $lastElement == 'contest' ? 'active pcoded-trigger' : '' }}">
                             <a href="javascript:void(0)" class="waves-effect waves-dark">
@@ -182,7 +183,7 @@
                                 </li>
                             </ul>
                         </li>
-                    </ul>
+                    </ul> --}}
 
                     <div class="pcoded-navigation-label">SETTINGS</div>
                     <ul class="pcoded-item pcoded-left-item">
@@ -191,22 +192,32 @@
                                 <span class="pcoded-micon">
                                     <i class="feather icon-clipboard"></i>
                                 </span>
-                                <span class="pcoded-mtext">User Dashboard Banner</span>
+                                <span class="pcoded-mtext">Homapage Slider</span>
                             </a>
                             <ul class="pcoded-submenu">
                                 <li class="{{ $route_name == 'add_banner' ? 'active' : '' }}">
                                     <a href="{{ route('add_banner') }}" class="waves-effect waves-dark">
-                                        <span class="pcoded-mtext">Add Banner</span>
+                                        <span class="pcoded-mtext">Add Slider</span>
                                     </a>
                                 </li>
                                 <li class="{{ $route_name == 'manage_banner' ? 'active' : '' }}">
                                     <a href="{{ route('manage_banner') }}" class="waves-effect waves-dark">
-                                        <span class="pcoded-mtext">Manage Banner</span>
+                                        <span class="pcoded-mtext">Manage Slider</span>
                                     </a>
                                 </li>
                             </ul>
                         </li>
                     </ul>
+                    
+                    <ul class="pcoded-item pcoded-left-item">
+                        <li class="pcoded-hasmenu {{ $route_name == 'site_setting' ? 'active' : '' }}">
+                            <a href="{{ route('site_setting') }}" class="waves-effect waves-dark">
+                                <span class="pcoded-micon"><i class="feather icon-home"></i></span>
+                                <span class="pcoded-mtext">Site Setting</span>
+                            </a>
+                        </li>
+                    </ul>
+
                     <ul class="pcoded-item pcoded-left-item">
                         <li class="pcoded-hasmenu">
                             <a href="{{ route('logout') }}" class="waves-effect waves-dark">

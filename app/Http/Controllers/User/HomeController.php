@@ -2,18 +2,20 @@
 
 namespace App\Http\Controllers\User;
 
-use App\Http\Controllers\Controller;
-use Image;
-use App\Models\UserDetail;
-use Illuminate\Support\Facades\Storage;
 use DB;
+use Image;
+use App\Models\Banner;
+use App\Models\UserDetail;
 use Illuminate\Http\Request;
+use App\Http\Controllers\Controller;
+use Illuminate\Support\Facades\Storage;
 
 class HomeController extends Controller
 {
     public function homepage()
-    {
-        return view('front-end.index');
+    {        
+        $banners = Banner::where('status', 1)->get();
+        return view('front-end.index', compact('banners'));
     }
 
     public function markets()

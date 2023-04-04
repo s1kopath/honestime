@@ -1,7 +1,6 @@
 @extends('front-end.master')
 
-@section('content')
-    <!-- slideshow content begin -->
+@push('page-style')
     <style>
         .carousel-indicators>li {
             border-radius: 50%;
@@ -15,39 +14,26 @@
             opacity: 80%;
         }
     </style>
+@endpush
+
+@section('content')
+    <!-- slideshow content begin -->
     <div class="bd-example">
         <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-ride="carousel">
             <ol class="carousel-indicators">
-                <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-                <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-                <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
-                <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+                @foreach ($banners as $banner)
+                    <li data-target="#carouselExampleCaptions" data-slide-to="{{ $loop->index }}"
+                        class="{{ $loop->index == 0 ? 'active' : '' }}">
+                    </li>
+                @endforeach
             </ol>
+
             <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="{{ asset('front-end/img/slider/slider-1.jpg') }}" class="d-block w-100" alt="...">
-                    {{-- <div class="carousel-caption d-none d-md-block">
-                        <h5>Export</h5>
-                    </div> --}}
-                </div>
-                <div class="carousel-item">
-                    <img src="{{ asset('front-end/img/slider/slider-2.jpg') }}" class="d-block w-100" alt="...">
-                    {{-- <div class="carousel-caption d-none d-md-block">
-                        <h5>Import</h5>
-                    </div> --}}
-                </div>
-                <div class="carousel-item">
-                    <img src="{{ asset('front-end/img/slider/slider-3.jpg') }}" class="d-block w-100" alt="...">
-                    {{-- <div class="carousel-caption d-none d-md-block">
-                        <h5>Manpower</h5>
-                    </div> --}}
-                </div>
-                <div class="carousel-item">
-                    <img src="{{ asset('front-end/img/slider/slider-2.jpg') }}" class="d-block w-100" alt="...">
-                    {{-- <div class="carousel-caption d-none d-md-block">
-                        <h5>E-Commerce</h5>
-                    </div> --}}
-                </div>
+                @foreach ($banners as $banner)
+                    <div class="carousel-item {{ $loop->index == 0 ? 'active' : '' }}">
+                        <img src="{{ $banner->image }}" class="d-block w-100" alt="RIJVI & RODH">
+                    </div>
+                @endforeach
             </div>
             <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>

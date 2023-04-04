@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\IbController;
 use App\Http\Controllers\GiftController;
+use App\Http\Controllers\SiteController;
 use App\Http\Controllers\TestController;
 use App\Http\Controllers\BannerController;
 use App\Http\Controllers\BinanceController;
@@ -111,6 +112,9 @@ Route::prefix('admin')->middleware('admin')->group(function () {
         Route::match(['get', 'post'], 'edit-banner/{id}', [BannerController::class, 'editBanner'])->name('edit_banner');
         Route::get('delete-banner/{id}', [BannerController::class, 'deleteBanner'])->name('delete_banner');
     });
+
+    Route::get('site-setting', [SiteController::class, 'siteSetting'])->name('site_setting');
+
 });
 
 Route::prefix('user')->middleware(['public', 'verified'])->group(function () {

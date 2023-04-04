@@ -4,7 +4,7 @@
         body {
             margin: 0;
             padding: 0;
-            background: url('back-end/assets/images/login-bg.jpg');
+            background: url('back-end/assets/images/1bea00d207b9.jfif');
             background-size: cover;
             background-position: center;
         }
@@ -65,7 +65,7 @@
                 <div class="col-sm-12">
                     <form class="md-float-material form-material">
                         <div class="text-center">
-                            <img src="{{ asset('back-end/img/logo.png') }}" alt="logo.png">
+                            <img class="rounded" width="100px" src="{{ asset('front-end/img/RIJVI & RODH GENERAL TRADING LLC-2.png') }}" alt="logo.png">
                         </div>
                         <div class="auth-box card">
                             <div class="card-body">

@@ -9,7 +9,7 @@
         <div class="navbar-logo">
             @if (auth()->user()->user_type == 'public')
                 <a href="/" class="d-none d-lg-block">
-                    <img class="img-fluid" src="{{ asset('back-end/img/WF.png') }}" alt="logo" width="100px">
+                    <img class="img-fluid rounded" src="{{ asset('front-end/img/logo.jpg') }}" alt="logo" width="100px">
                 </a>
                 <div class="d-block d-lg-none text-white pt-2">
                     @yield('page-title')
@@ -22,7 +22,7 @@
                 @endif
             @else
                 <a href="/">
-                    <img class="img-fluid" src="{{ asset('back-end/img/WF.png') }}" alt="logo" width="100px">
+                    <img class="img-fluid rounded" src="{{ asset('front-end/img/logo.jpg') }}" alt="logo" width="100px">
                 </a>
             @endif
 

@@ -7,8 +7,8 @@
 
 @section('page-content')
     <div class="card">
-        <div class="card-header bg-info">
-            <h2 class="text-center">Manage Banners</h5>
+        <div class="card-header">
+            <h2 class="text-center">Manage Sliders</h5>
         </div>
         <div class="card-body">
             <div class="text-right">
@@ -27,12 +27,12 @@
                                     <tr role="row">
                                         <th class="sorting" tabindex="0" aria-controls="order-table" rowspan="1"
                                             colspan="1" aria-label="Name: activate to sort column ascending"
-                                            style="width: 10px;">
+                                            style="width: 5px;">
                                             #Sl
                                         </th>
                                         <th class="sorting" tabindex="0" aria-controls="order-table" rowspan="1"
                                             colspan="1" aria-label="Name: activate to sort column ascending"
-                                            style="width: 450px;">
+                                            style="width: 300px;">
                                             Image
                                         </th>
                                         <th class="sorting" tabindex="0" aria-controls="order-table" rowspan="1"
@@ -48,12 +48,12 @@
                                     </tr>
                                 </thead>
                                 <tbody>
-                                    @foreach ($banners as $data)
+                                    @foreach ($banners as $key => $data)
                                         <tr role="row" class="even">
-                                            <td>{{ $data->sl }}</td>
+                                            <td>{{ $key + 1 }}</td>
                                             <td>
                                                 <img class="img-fluid" src="{{ $data->image }}" alt="RIJVI & RODH"
-                                                    width="500">
+                                                    width="300">
                                             </td>
                                             <td>
 

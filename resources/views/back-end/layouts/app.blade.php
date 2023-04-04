@@ -67,6 +67,9 @@
     <link rel="stylesheet" type="text/css" href="{{ asset('back-end/assets/css/custom-style.css') }}">
 
     @stack('css')
+
+    @livewireStyles
+
 </head>
 
 <body>
@@ -163,6 +166,8 @@
     <script src="{{ asset('back-end/assets/js/cropper.min.js') }}"></script>
 
     @stack('js')
+
+    @livewireScripts
 </body>
 
 </html>

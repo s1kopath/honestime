@@ -4,79 +4,41 @@
         body {
             margin: 0;
             padding: 0;
-            background: url('back-end/assets/images/login-bg.jpg');
+            background: url('back-end/assets/images/1bea00d207b9.jfif');
             background-size: cover;
             background-position: center;
         }
+
+        input.form-control::placeholder {
+            color: #b6b6b6;
+        }
+
+        input.form-control,
+        input.form-control:focus {
+            color: #ffffff;
+        }
     </style>
-    <div class="theme-loader">
-        <div class="loader-track">
-            <div class="preloader-wrapper">
-                <div class="spinner-layer spinner-blue">
-                    <div class="circle-clipper left">
-                        <div class="circle"></div>
-                    </div>
-                    <div class="gap-patch">
-                        <div class="circle"></div>
-                    </div>
-                    <div class="circle-clipper right">
-                        <div class="circle"></div>
-                    </div>
-                </div>
-                <div class="spinner-layer spinner-red">
-                    <div class="circle-clipper left">
-                        <div class="circle"></div>
-                    </div>
-                    <div class="gap-patch">
-                        <div class="circle"></div>
-                    </div>
-                    <div class="circle-clipper right">
-                        <div class="circle"></div>
-                    </div>
-                </div>
-                <div class="spinner-layer spinner-yellow">
-                    <div class="circle-clipper left">
-                        <div class="circle"></div>
-                    </div>
-                    <div class="gap-patch">
-                        <div class="circle"></div>
-                    </div>
-                    <div class="circle-clipper right">
-                        <div class="circle"></div>
-                    </div>
-                </div>
-                <div class="spinner-layer spinner-green">
-                    <div class="circle-clipper left">
-                        <div class="circle"></div>
-                    </div>
-                    <div class="gap-patch">
-                        <div class="circle"></div>
-                    </div>
-                    <div class="circle-clipper right">
-                        <div class="circle"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+
     <section class="login-block">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-sm-12">
                     <form action="{{ route('auth_login') }}" method="POST" class="md-float-material form-material">
                         @csrf
-                        <div class="text-center">
-                            <img class="rounded" src="{{ asset('back-end/img/logo.png') }}" alt="logo.png">
-                        </div>
-                        <div class="auth-box card">
-                            <div class="card-body">
+                        <div class="auth-box border rounded text-white">
+                            <div class="card-body" style="">
+
+                                <div class="text-center">
+                                    <img class="rounded" width="100px"
+                                        src="{{ asset('back-end/img/transparant-logo.png') }}" alt="logo.png">
+                                </div>
                                 <div class="row m-b-20">
                                     <div class="col-md-12">
                                         <h3 class="text-center txt-primary">Sign In</h3>
                                     </div>
                                 </div>
-                                <div class="row m-b-20">
-                                    {{-- <div class="col-md-6">
+                                {{-- <div class="row m-b-20">
+                                    <div class="col-md-6">
                                         <button class="btn btn-facebook m-b-20 btn-block"><i
                                                 class="icofont icofont-social-facebook"></i>facebook</button>
                                     </div>
@@ -85,9 +47,9 @@
                                                 class="icofont icofont-social-twitter"></i>
                                             twitter
                                         </button>
-                                    </div> --}}
-                                </div>
-                                <p class="text-muted text-center p-b-5">Sign in with your regular account</p>
+                                    </div>
+                                </div> --}}
+                                <p class="text-center p-b-5">Sign in with your regular account</p>
                                 @if (session('error'))
                                     <div class="alert bg-alert text-danger">
                                         {{ session('error') }}
@@ -120,11 +82,11 @@
                                                 <span class="cr">
                                                     <i class="cr-icon icofont icofont-ui-check txt-primary"></i>
                                                 </span>
-                                                <span class="text-inverse">Remember me</span>
+                                                <span class="">Remember me</span>
                                             </label>
                                         </div>
                                         <div class="forgot-phone text-right float-right">
-                                            <a href="{{ route('forget_password') }}" class="text-right f-w-600">
+                                            <a href="#" class="text-right f-w-600 text-white">
                                                 Forgot Password?
                                             </a>
                                         </div>
@@ -138,17 +100,17 @@
                                         </button>
                                     </div>
                                 </div>
-                                <p class="text-inverse text-left">
+                                <p class="text-left">
                                     Don't have an account?
-                                    <a href="{{ route('register') }}">
+                                    <a href="#">
                                         <b>Register here </b>
                                     </a>
                                     for free!
                                 </p>
                                 <div class="row">
                                     <div class="col-md-10">
-                                        <p class="text-inverse text-left">
-                                            <a href="/">
+                                        <p class="text-left">
+                                            <a href="/" class="text-white">
                                                 <b>Back to website</b>
                                             </a>
                                         </p>

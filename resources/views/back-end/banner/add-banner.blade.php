@@ -6,8 +6,8 @@
 
 @section('page-content')
     <div class="card">
-        <div class="card-header bg-info">
-            <h2 class="text-center">Add Banner</h5>
+        <div class="card-header">
+            <h2 class="text-center">Add Slider</h5>
         </div>
         <div class="card-body">
 
@@ -57,7 +57,7 @@
             }
 
             cropper = new Cropper(image, {
-                aspectRatio: 16 / 3,
+                aspectRatio: 17 / 6,
                 viewMode: NaN,
                 preview: '.cropper-preview'
             });

@@ -24,7 +24,7 @@ class BannerController extends Controller
                 'sl' => rand(11111, 99999),
                 'image_path' => $file_name,
             ]);
-            return redirect()->route('manage_banner')->with('message', 'Banner uploaded successfully!');
+            return redirect()->route('manage_banner')->with('message', 'Slider uploaded successfully!');
         } else {
             return view('back-end.banner.add-banner');
         }
@@ -47,7 +47,7 @@ class BannerController extends Controller
             $banner_image->image_path = $file_name;
             $banner_image->save();
 
-            return redirect()->route('manage_banner')->with('message', 'Banner update successfully!');
+            return redirect()->route('manage_banner')->with('message', 'Slider update successfully!');
         } else {
             $banner_image = Banner::find($id);
             return view('back-end.banner.edit-banner', compact('banner_image'));
@@ -56,7 +56,7 @@ class BannerController extends Controller
 
     public function manageBanner()
     {
-        $banners = Banner::orderBy('sl', 'asc')->get();
+        $banners = Banner::orderBy('ID', 'asc')->get();
         return view('back-end.banner.manage-banner', compact('banners'));
     }
 
@@ -69,6 +69,6 @@ class BannerController extends Controller
 
         $banner->delete();
 
-        return redirect()->back()->with('message', 'Banner Deleted Successfully.');
+        return redirect()->back()->with('message', 'Slider Deleted Successfully.');
     }
 }
