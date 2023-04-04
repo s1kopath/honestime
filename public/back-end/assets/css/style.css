@@ -4764,11 +4764,11 @@ body[themebg-pattern=theme6] {
 }
 
 .pcoded .pcoded-navbar[navbar-theme=theme1] .pcoded-item>li>a {
-    color: #b7c0cd
+    color: #ffffff
 }
 
 .pcoded .pcoded-navbar[navbar-theme=theme1] .pcoded-item>li>a .pcoded-micon {
-    color: #b7c0cd
+    color: #ffffff
 }
 
 .pcoded .pcoded-navbar[navbar-theme=theme1] .pcoded-item>li.active>a {
@@ -4787,7 +4787,7 @@ body[themebg-pattern=theme6] {
 
 .pcoded .pcoded-navbar[navbar-theme=theme1] .pcoded-item>li.pcoded-hasmenu>a:after,
 .pcoded .pcoded-navbar[navbar-theme=theme1] .pcoded-item>li.pcoded-hasmenu .pcoded-submenu li.pcoded-hasmenu>a:after {
-    color: #b7c0cd
+    color: #ffffff
 }
 
 .pcoded .pcoded-navbar[navbar-theme=theme1] .pcoded-item>li.pcoded-hasmenu.pcoded-trigger>a:after,
@@ -5421,7 +5421,7 @@ body[themebg-pattern=theme6] {
 .pcoded[theme-layout=vertical] .pcoded-navbar[navbar-theme=theme1] .pcoded-item>li:hover>a,
 .pcoded[theme-layout=vertical] .pcoded-navbar[navbar-theme=theme1] .pcoded-item>li:hover:hover>a {
     color: #fff;
-    background-color: #061346
+    background-color: #782500
 }
 
 .pcoded[theme-layout=vertical] .pcoded-navbar[navbar-theme=theme1] .pcoded-item>li.active>a .pcoded-micon,
@@ -5456,7 +5456,7 @@ body[themebg-pattern=theme6] {
 
 .pcoded[theme-layout=vertical] .pcoded-navbar[navbar-theme=theme1][active-item-theme=theme1] .pcoded-item>li.active>a,
 .pcoded[theme-layout=vertical] .pcoded-navbar[navbar-theme=theme1][active-item-theme=theme1] .pcoded-item>li.pcoded-trigger>a {
-    background: #061346;
+    background: #782500;
     color: #b7c0cd
 }
 
@@ -5472,7 +5472,7 @@ body[themebg-pattern=theme6] {
 
 .pcoded[theme-layout=vertical] .pcoded-navbar[navbar-theme=theme1][active-item-theme=theme1] .pcoded-item>li.active:hover>a,
 .pcoded[theme-layout=vertical] .pcoded-navbar[navbar-theme=theme1][active-item-theme=theme1] .pcoded-item>li.pcoded-trigger:hover>a {
-    background: #061346
+    background: #782500
 }
 
 .pcoded[theme-layout=vertical] .pcoded-navbar[navbar-theme=theme1][active-item-theme=theme1] .pcoded-item>li:hover>a {
@@ -5490,7 +5490,7 @@ body[themebg-pattern=theme6] {
 
 .pcoded[theme-layout=vertical] .pcoded-navbar[navbar-theme=theme1][active-item-theme=theme2] .pcoded-item>li.active>a,
 .pcoded[theme-layout=vertical] .pcoded-navbar[navbar-theme=theme1][active-item-theme=theme2] .pcoded-item>li.pcoded-trigger>a {
-    background: #061346;
+    background: #782500;
     color: #b7c0cd
 }
 
@@ -5506,7 +5506,7 @@ body[themebg-pattern=theme6] {
 
 .pcoded[theme-layout=vertical] .pcoded-navbar[navbar-theme=theme1][active-item-theme=theme2] .pcoded-item>li.active:hover>a,
 .pcoded[theme-layout=vertical] .pcoded-navbar[navbar-theme=theme1][active-item-theme=theme2] .pcoded-item>li.pcoded-trigger:hover>a {
-    background: #061346
+    background: #782500
 }
 
 .pcoded[theme-layout=vertical] .pcoded-navbar[navbar-theme=theme1][active-item-theme=theme2] .pcoded-item>li:hover>a {
@@ -5524,7 +5524,7 @@ body[themebg-pattern=theme6] {
 
 .pcoded[theme-layout=vertical] .pcoded-navbar[navbar-theme=theme1][active-item-theme=theme3] .pcoded-item>li.active>a,
 .pcoded[theme-layout=vertical] .pcoded-navbar[navbar-theme=theme1][active-item-theme=theme3] .pcoded-item>li.pcoded-trigger>a {
-    background: #061346;
+    background: #782500;
     color: #b7c0cd
 }
 
@@ -5540,7 +5540,7 @@ body[themebg-pattern=theme6] {
 
 .pcoded[theme-layout=vertical] .pcoded-navbar[navbar-theme=theme1][active-item-theme=theme3] .pcoded-item>li.active:hover>a,
 .pcoded[theme-layout=vertical] .pcoded-navbar[navbar-theme=theme1][active-item-theme=theme3] .pcoded-item>li.pcoded-trigger:hover>a {
-    background: #061346
+    background: #782500
 }
 
 .pcoded[theme-layout=vertical] .pcoded-navbar[navbar-theme=theme1][active-item-theme=theme3] .pcoded-item>li:hover>a {
@@ -5558,7 +5558,7 @@ body[themebg-pattern=theme6] {
 
 .pcoded[theme-layout=vertical] .pcoded-navbar[navbar-theme=theme1][active-item-theme=theme4] .pcoded-item>li.active>a,
 .pcoded[theme-layout=vertical] .pcoded-navbar[navbar-theme=theme1][active-item-theme=theme4] .pcoded-item>li.pcoded-trigger>a {
-    background: #061346;
+    background: #782500;
     color: #b7c0cd
 }
 
@@ -5574,7 +5574,7 @@ body[themebg-pattern=theme6] {
 
 .pcoded[theme-layout=vertical] .pcoded-navbar[navbar-theme=theme1][active-item-theme=theme4] .pcoded-item>li.active:hover>a,
 .pcoded[theme-layout=vertical] .pcoded-navbar[navbar-theme=theme1][active-item-theme=theme4] .pcoded-item>li.pcoded-trigger:hover>a {
-    background: #061346
+    background: #782500
 }
 
 .pcoded[theme-layout=vertical] .pcoded-navbar[navbar-theme=theme1][active-item-theme=theme4] .pcoded-item>li:hover>a {
@@ -5592,7 +5592,7 @@ body[themebg-pattern=theme6] {
 
 .pcoded[theme-layout=vertical] .pcoded-navbar[navbar-theme=theme1][active-item-theme=theme5] .pcoded-item>li.active>a,
 .pcoded[theme-layout=vertical] .pcoded-navbar[navbar-theme=theme1][active-item-theme=theme5] .pcoded-item>li.pcoded-trigger>a {
-    background: #061346;
+    background: #782500;
     color: #b7c0cd
 }
 
@@ -5608,7 +5608,7 @@ body[themebg-pattern=theme6] {
 
 .pcoded[theme-layout=vertical] .pcoded-navbar[navbar-theme=theme1][active-item-theme=theme5] .pcoded-item>li.active:hover>a,
 .pcoded[theme-layout=vertical] .pcoded-navbar[navbar-theme=theme1][active-item-theme=theme5] .pcoded-item>li.pcoded-trigger:hover>a {
-    background: #061346
+    background: #782500
 }
 
 .pcoded[theme-layout=vertical] .pcoded-navbar[navbar-theme=theme1][active-item-theme=theme5] .pcoded-item>li:hover>a {
@@ -5626,7 +5626,7 @@ body[themebg-pattern=theme6] {
 
 .pcoded[theme-layout=vertical] .pcoded-navbar[navbar-theme=theme1][active-item-theme=theme6] .pcoded-item>li.active>a,
 .pcoded[theme-layout=vertical] .pcoded-navbar[navbar-theme=theme1][active-item-theme=theme6] .pcoded-item>li.pcoded-trigger>a {
-    background: #061346;
+    background: #782500;
     color: #b7c0cd
 }
 
@@ -5642,7 +5642,7 @@ body[themebg-pattern=theme6] {
 
 .pcoded[theme-layout=vertical] .pcoded-navbar[navbar-theme=theme1][active-item-theme=theme6] .pcoded-item>li.active:hover>a,
 .pcoded[theme-layout=vertical] .pcoded-navbar[navbar-theme=theme1][active-item-theme=theme6] .pcoded-item>li.pcoded-trigger:hover>a {
-    background: #061346
+    background: #782500
 }
 
 .pcoded[theme-layout=vertical] .pcoded-navbar[navbar-theme=theme1][active-item-theme=theme6] .pcoded-item>li:hover>a {
@@ -5660,7 +5660,7 @@ body[themebg-pattern=theme6] {
 
 .pcoded[theme-layout=vertical] .pcoded-navbar[navbar-theme=theme1][active-item-theme=theme7] .pcoded-item>li.active>a,
 .pcoded[theme-layout=vertical] .pcoded-navbar[navbar-theme=theme1][active-item-theme=theme7] .pcoded-item>li.pcoded-trigger>a {
-    background: #061346;
+    background: #782500;
     color: #b7c0cd
 }
 
@@ -5676,7 +5676,7 @@ body[themebg-pattern=theme6] {
 
 .pcoded[theme-layout=vertical] .pcoded-navbar[navbar-theme=theme1][active-item-theme=theme7] .pcoded-item>li.active:hover>a,
 .pcoded[theme-layout=vertical] .pcoded-navbar[navbar-theme=theme1][active-item-theme=theme7] .pcoded-item>li.pcoded-trigger:hover>a {
-    background: #061346
+    background: #782500
 }
 
 .pcoded[theme-layout=vertical] .pcoded-navbar[navbar-theme=theme1][active-item-theme=theme7] .pcoded-item>li:hover>a {
@@ -5694,7 +5694,7 @@ body[themebg-pattern=theme6] {
 
 .pcoded[theme-layout=vertical] .pcoded-navbar[navbar-theme=theme1][active-item-theme=theme8] .pcoded-item>li.active>a,
 .pcoded[theme-layout=vertical] .pcoded-navbar[navbar-theme=theme1][active-item-theme=theme8] .pcoded-item>li.pcoded-trigger>a {
-    background: #061346;
+    background: #782500;
     color: #b7c0cd
 }
 
@@ -5710,7 +5710,7 @@ body[themebg-pattern=theme6] {
 
 .pcoded[theme-layout=vertical] .pcoded-navbar[navbar-theme=theme1][active-item-theme=theme8] .pcoded-item>li.active:hover>a,
 .pcoded[theme-layout=vertical] .pcoded-navbar[navbar-theme=theme1][active-item-theme=theme8] .pcoded-item>li.pcoded-trigger:hover>a {
-    background: #061346
+    background: #782500
 }
 
 .pcoded[theme-layout=vertical] .pcoded-navbar[navbar-theme=theme1][active-item-theme=theme8] .pcoded-item>li:hover>a {
@@ -5728,7 +5728,7 @@ body[themebg-pattern=theme6] {
 
 .pcoded[theme-layout=vertical] .pcoded-navbar[navbar-theme=theme1][active-item-theme=theme9] .pcoded-item>li.active>a,
 .pcoded[theme-layout=vertical] .pcoded-navbar[navbar-theme=theme1][active-item-theme=theme9] .pcoded-item>li.pcoded-trigger>a {
-    background: #061346;
+    background: #782500;
     color: #b7c0cd
 }
 
@@ -5744,7 +5744,7 @@ body[themebg-pattern=theme6] {
 
 .pcoded[theme-layout=vertical] .pcoded-navbar[navbar-theme=theme1][active-item-theme=theme9] .pcoded-item>li.active:hover>a,
 .pcoded[theme-layout=vertical] .pcoded-navbar[navbar-theme=theme1][active-item-theme=theme9] .pcoded-item>li.pcoded-trigger:hover>a {
-    background: #061346
+    background: #782500
 }
 
 .pcoded[theme-layout=vertical] .pcoded-navbar[navbar-theme=theme1][active-item-theme=theme9] .pcoded-item>li:hover>a {
@@ -5762,7 +5762,7 @@ body[themebg-pattern=theme6] {
 
 .pcoded[theme-layout=vertical] .pcoded-navbar[navbar-theme=theme1][active-item-theme=theme10] .pcoded-item>li.active>a,
 .pcoded[theme-layout=vertical] .pcoded-navbar[navbar-theme=theme1][active-item-theme=theme10] .pcoded-item>li.pcoded-trigger>a {
-    background: #061346;
+    background: #782500;
     color: #b7c0cd
 }
 
@@ -5778,7 +5778,7 @@ body[themebg-pattern=theme6] {
 
 .pcoded[theme-layout=vertical] .pcoded-navbar[navbar-theme=theme1][active-item-theme=theme10] .pcoded-item>li.active:hover>a,
 .pcoded[theme-layout=vertical] .pcoded-navbar[navbar-theme=theme1][active-item-theme=theme10] .pcoded-item>li.pcoded-trigger:hover>a {
-    background: #061346
+    background: #782500
 }
 
 .pcoded[theme-layout=vertical] .pcoded-navbar[navbar-theme=theme1][active-item-theme=theme10] .pcoded-item>li:hover>a {
@@ -5796,7 +5796,7 @@ body[themebg-pattern=theme6] {
 
 .pcoded[theme-layout=vertical] .pcoded-navbar[navbar-theme=theme1][active-item-theme=theme11] .pcoded-item>li.active>a,
 .pcoded[theme-layout=vertical] .pcoded-navbar[navbar-theme=theme1][active-item-theme=theme11] .pcoded-item>li.pcoded-trigger>a {
-    background: #061346;
+    background: #782500;
     color: #b7c0cd
 }
 
@@ -5812,7 +5812,7 @@ body[themebg-pattern=theme6] {
 
 .pcoded[theme-layout=vertical] .pcoded-navbar[navbar-theme=theme1][active-item-theme=theme11] .pcoded-item>li.active:hover>a,
 .pcoded[theme-layout=vertical] .pcoded-navbar[navbar-theme=theme1][active-item-theme=theme11] .pcoded-item>li.pcoded-trigger:hover>a {
-    background: #061346
+    background: #782500
 }
 
 .pcoded[theme-layout=vertical] .pcoded-navbar[navbar-theme=theme1][active-item-theme=theme11] .pcoded-item>li:hover>a {
@@ -5830,7 +5830,7 @@ body[themebg-pattern=theme6] {
 
 .pcoded[theme-layout=vertical] .pcoded-navbar[navbar-theme=theme1][active-item-theme=theme12] .pcoded-item>li.active>a,
 .pcoded[theme-layout=vertical] .pcoded-navbar[navbar-theme=theme1][active-item-theme=theme12] .pcoded-item>li.pcoded-trigger>a {
-    background: #061346;
+    background: #782500;
     color: #b7c0cd
 }
 
@@ -5846,7 +5846,7 @@ body[themebg-pattern=theme6] {
 
 .pcoded[theme-layout=vertical] .pcoded-navbar[navbar-theme=theme1][active-item-theme=theme12] .pcoded-item>li.active:hover>a,
 .pcoded[theme-layout=vertical] .pcoded-navbar[navbar-theme=theme1][active-item-theme=theme12] .pcoded-item>li.pcoded-trigger:hover>a {
-    background: #061346
+    background: #782500
 }
 
 .pcoded[theme-layout=vertical] .pcoded-navbar[navbar-theme=theme1][active-item-theme=theme12] .pcoded-item>li:hover>a {
@@ -5929,15 +5929,15 @@ body[themebg-pattern=theme6] {
 
 .pcoded[theme-layout=vertical] .pcoded-navbar[navbar-theme=themelight1][active-item-theme=theme1] .pcoded-item>li:hover>a {
     background: 0 0;
-    color: #061346
+    color: #782500
 }
 
 .pcoded[theme-layout=vertical] .pcoded-navbar[navbar-theme=themelight1][active-item-theme=theme1] .pcoded-item>li:hover>a .pcoded-micon {
-    color: #061346
+    color: #782500
 }
 
 .pcoded[theme-layout=vertical] .pcoded-navbar[navbar-theme=themelight1][active-item-theme=theme1] .pcoded-item>li:hover>a:after {
-    color: #061346
+    color: #782500
 }
 
 .pcoded[theme-layout=vertical] .pcoded-navbar[navbar-theme=themelight1][active-item-theme=theme2] .pcoded-item>li.active>a,
@@ -5963,15 +5963,15 @@ body[themebg-pattern=theme6] {
 
 .pcoded[theme-layout=vertical] .pcoded-navbar[navbar-theme=themelight1][active-item-theme=theme2] .pcoded-item>li:hover>a {
     background: 0 0;
-    color: #061346
+    color: #782500
 }
 
 .pcoded[theme-layout=vertical] .pcoded-navbar[navbar-theme=themelight1][active-item-theme=theme2] .pcoded-item>li:hover>a .pcoded-micon {
-    color: #061346
+    color: #782500
 }
 
 .pcoded[theme-layout=vertical] .pcoded-navbar[navbar-theme=themelight1][active-item-theme=theme2] .pcoded-item>li:hover>a:after {
-    color: #061346
+    color: #782500
 }
 
 .pcoded[theme-layout=vertical] .pcoded-navbar[navbar-theme=themelight1][active-item-theme=theme3] .pcoded-item>li.active>a,
@@ -5997,15 +5997,15 @@ body[themebg-pattern=theme6] {
 
 .pcoded[theme-layout=vertical] .pcoded-navbar[navbar-theme=themelight1][active-item-theme=theme3] .pcoded-item>li:hover>a {
     background: 0 0;
-    color: #061346
+    color: #782500
 }
 
 .pcoded[theme-layout=vertical] .pcoded-navbar[navbar-theme=themelight1][active-item-theme=theme3] .pcoded-item>li:hover>a .pcoded-micon {
-    color: #061346
+    color: #782500
 }
 
 .pcoded[theme-layout=vertical] .pcoded-navbar[navbar-theme=themelight1][active-item-theme=theme3] .pcoded-item>li:hover>a:after {
-    color: #061346
+    color: #782500
 }
 
 .pcoded[theme-layout=vertical] .pcoded-navbar[navbar-theme=themelight1][active-item-theme=theme4] .pcoded-item>li.active>a,
@@ -6031,15 +6031,15 @@ body[themebg-pattern=theme6] {
 
 .pcoded[theme-layout=vertical] .pcoded-navbar[navbar-theme=themelight1][active-item-theme=theme4] .pcoded-item>li:hover>a {
     background: 0 0;
-    color: #061346
+    color: #782500
 }
 
 .pcoded[theme-layout=vertical] .pcoded-navbar[navbar-theme=themelight1][active-item-theme=theme4] .pcoded-item>li:hover>a .pcoded-micon {
-    color: #061346
+    color: #782500
 }
 
 .pcoded[theme-layout=vertical] .pcoded-navbar[navbar-theme=themelight1][active-item-theme=theme4] .pcoded-item>li:hover>a:after {
-    color: #061346
+    color: #782500
 }
 
 .pcoded[theme-layout=vertical] .pcoded-navbar[navbar-theme=themelight1][active-item-theme=theme5] .pcoded-item>li.active>a,
@@ -6065,15 +6065,15 @@ body[themebg-pattern=theme6] {
 
 .pcoded[theme-layout=vertical] .pcoded-navbar[navbar-theme=themelight1][active-item-theme=theme5] .pcoded-item>li:hover>a {
     background: 0 0;
-    color: #061346
+    color: #782500
 }
 
 .pcoded[theme-layout=vertical] .pcoded-navbar[navbar-theme=themelight1][active-item-theme=theme5] .pcoded-item>li:hover>a .pcoded-micon {
-    color: #061346
+    color: #782500
 }
 
 .pcoded[theme-layout=vertical] .pcoded-navbar[navbar-theme=themelight1][active-item-theme=theme5] .pcoded-item>li:hover>a:after {
-    color: #061346
+    color: #782500
 }
 
 .pcoded[theme-layout=vertical] .pcoded-navbar[navbar-theme=themelight1][active-item-theme=theme6] .pcoded-item>li.active>a,
@@ -6099,15 +6099,15 @@ body[themebg-pattern=theme6] {
 
 .pcoded[theme-layout=vertical] .pcoded-navbar[navbar-theme=themelight1][active-item-theme=theme6] .pcoded-item>li:hover>a {
     background: 0 0;
-    color: #061346
+    color: #782500
 }
 
 .pcoded[theme-layout=vertical] .pcoded-navbar[navbar-theme=themelight1][active-item-theme=theme6] .pcoded-item>li:hover>a .pcoded-micon {
-    color: #061346
+    color: #782500
 }
 
 .pcoded[theme-layout=vertical] .pcoded-navbar[navbar-theme=themelight1][active-item-theme=theme6] .pcoded-item>li:hover>a:after {
-    color: #061346
+    color: #782500
 }
 
 .pcoded[theme-layout=vertical] .pcoded-navbar[navbar-theme=themelight1][active-item-theme=theme7] .pcoded-item>li.active>a,
@@ -6133,15 +6133,15 @@ body[themebg-pattern=theme6] {
 
 .pcoded[theme-layout=vertical] .pcoded-navbar[navbar-theme=themelight1][active-item-theme=theme7] .pcoded-item>li:hover>a {
     background: 0 0;
-    color: #061346
+    color: #782500
 }
 
 .pcoded[theme-layout=vertical] .pcoded-navbar[navbar-theme=themelight1][active-item-theme=theme7] .pcoded-item>li:hover>a .pcoded-micon {
-    color: #061346
+    color: #782500
 }
 
 .pcoded[theme-layout=vertical] .pcoded-navbar[navbar-theme=themelight1][active-item-theme=theme7] .pcoded-item>li:hover>a:after {
-    color: #061346
+    color: #782500
 }
 
 .pcoded[theme-layout=vertical] .pcoded-navbar[navbar-theme=themelight1][active-item-theme=theme8] .pcoded-item>li.active>a,
@@ -6167,15 +6167,15 @@ body[themebg-pattern=theme6] {
 
 .pcoded[theme-layout=vertical] .pcoded-navbar[navbar-theme=themelight1][active-item-theme=theme8] .pcoded-item>li:hover>a {
     background: 0 0;
-    color: #061346
+    color: #782500
 }
 
 .pcoded[theme-layout=vertical] .pcoded-navbar[navbar-theme=themelight1][active-item-theme=theme8] .pcoded-item>li:hover>a .pcoded-micon {
-    color: #061346
+    color: #782500
 }
 
 .pcoded[theme-layout=vertical] .pcoded-navbar[navbar-theme=themelight1][active-item-theme=theme8] .pcoded-item>li:hover>a:after {
-    color: #061346
+    color: #782500
 }
 
 .pcoded[theme-layout=vertical] .pcoded-navbar[navbar-theme=themelight1][active-item-theme=theme9] .pcoded-item>li.active>a,
@@ -6201,15 +6201,15 @@ body[themebg-pattern=theme6] {
 
 .pcoded[theme-layout=vertical] .pcoded-navbar[navbar-theme=themelight1][active-item-theme=theme9] .pcoded-item>li:hover>a {
     background: 0 0;
-    color: #061346
+    color: #782500
 }
 
 .pcoded[theme-layout=vertical] .pcoded-navbar[navbar-theme=themelight1][active-item-theme=theme9] .pcoded-item>li:hover>a .pcoded-micon {
-    color: #061346
+    color: #782500
 }
 
 .pcoded[theme-layout=vertical] .pcoded-navbar[navbar-theme=themelight1][active-item-theme=theme9] .pcoded-item>li:hover>a:after {
-    color: #061346
+    color: #782500
 }
 
 .pcoded[theme-layout=vertical] .pcoded-navbar[navbar-theme=themelight1][active-item-theme=theme10] .pcoded-item>li.active>a,
@@ -6235,15 +6235,15 @@ body[themebg-pattern=theme6] {
 
 .pcoded[theme-layout=vertical] .pcoded-navbar[navbar-theme=themelight1][active-item-theme=theme10] .pcoded-item>li:hover>a {
     background: 0 0;
-    color: #061346
+    color: #782500
 }
 
 .pcoded[theme-layout=vertical] .pcoded-navbar[navbar-theme=themelight1][active-item-theme=theme10] .pcoded-item>li:hover>a .pcoded-micon {
-    color: #061346
+    color: #782500
 }
 
 .pcoded[theme-layout=vertical] .pcoded-navbar[navbar-theme=themelight1][active-item-theme=theme10] .pcoded-item>li:hover>a:after {
-    color: #061346
+    color: #782500
 }
 
 .pcoded[theme-layout=vertical] .pcoded-navbar[navbar-theme=themelight1][active-item-theme=theme11] .pcoded-item>li.active>a,
@@ -6269,15 +6269,15 @@ body[themebg-pattern=theme6] {
 
 .pcoded[theme-layout=vertical] .pcoded-navbar[navbar-theme=themelight1][active-item-theme=theme11] .pcoded-item>li:hover>a {
     background: 0 0;
-    color: #061346
+    color: #782500
 }
 
 .pcoded[theme-layout=vertical] .pcoded-navbar[navbar-theme=themelight1][active-item-theme=theme11] .pcoded-item>li:hover>a .pcoded-micon {
-    color: #061346
+    color: #782500
 }
 
 .pcoded[theme-layout=vertical] .pcoded-navbar[navbar-theme=themelight1][active-item-theme=theme11] .pcoded-item>li:hover>a:after {
-    color: #061346
+    color: #782500
 }
 
 .pcoded[theme-layout=vertical] .pcoded-navbar[navbar-theme=themelight1][active-item-theme=theme12] .pcoded-item>li.active>a,
@@ -6303,15 +6303,15 @@ body[themebg-pattern=theme6] {
 
 .pcoded[theme-layout=vertical] .pcoded-navbar[navbar-theme=themelight1][active-item-theme=theme12] .pcoded-item>li:hover>a {
     background: 0 0;
-    color: #061346
+    color: #782500
 }
 
 .pcoded[theme-layout=vertical] .pcoded-navbar[navbar-theme=themelight1][active-item-theme=theme12] .pcoded-item>li:hover>a .pcoded-micon {
-    color: #061346
+    color: #782500
 }
 
 .pcoded[theme-layout=vertical] .pcoded-navbar[navbar-theme=themelight1][active-item-theme=theme12] .pcoded-item>li:hover>a:after {
-    color: #061346
+    color: #782500
 }
 
 .pcoded[theme-layout=horizontal] .pcoded-navbar[active-item-theme=theme1] .pcoded-item li.pcoded-hasmenu .pcoded-submenu li.active>a,
