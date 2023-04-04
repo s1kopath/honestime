@@ -2,307 +2,21 @@
 
 @section('content')
     <!-- slideshow content begin -->
-    {{-- <div class="uk-section uk-padding-remove-vertical in-slideshow-gradient">
-        <div id="particles-js" class="uk-light in-slideshow uk-background-contain"
-            data-src="{{ asset('front-end/img/in-equity-decor-1.svg') }}" data-uk-img data-uk-slideshow>
-            <hr>
-            <ul class="uk-slideshow-items">
-                <li class="uk-flex uk-flex-middle">
-                    <div class="uk-container">
-                        <div class="uk-grid-large uk-flex-middle" data-uk-grid>
-                            <div class="uk-width-1-2@s in-slide-text">
-                                <p class="in-badge-text uk-text-small uk-margin-remove-bottom uk-visible@m"><span
-                                        class="uk-label uk-label-success in-label-small">New</span>Trade the
-                                    markets directly with
-                                    leading trading platforms.</p>
-                                <h1 class="uk-heading-small">Demo <span class="in-highlight">page</span>
-                                    1.</h1>
-                                <p class="uk-text-lead uk-visible@m">Lorem ipsum dolor sit amet consectetur adipisicing
-                                    elit. Sint fugit expedita inventore quos asperiores quis officiis quibusdam laudantium?
-                                    Nobis a odio culpa praesentium? Est eos commodi quisquam ullam eius eligendi?</p>
-                                <div class="uk-grid-medium uk-child-width-1-3@m uk-child-width-1-2@s uk-margin-medium-top uk-visible@s"
-                                    data-uk-grid>
-                                    <div>
-                                        <div
-                                            class="uk-card uk-card-small uk-card-secondary uk-card-body uk-border-rounded uk-flex uk-flex-middle">
-                                            <div class="in-symbol-logo">
-                                                <img src="{{ asset('front-end/img/in-lazy.gif') }}"
-                                                    data-src="{{ asset('front-end/img/in-symbol-tesla.svg') }}"
-                                                    alt="ticker" width="28" height="28" data-uk-img>
-                                            </div>
-                                            <div class="in-price down">
-                                                <h6 class="uk-margin-remove">TSLA<span class="uk-text-small">-1.47%</span>
-                                                </h6>
-                                                <p class="uk-margin-remove"><span
-                                                        class="fas fa-arrow-circle-right fa-xs"></span>$113.06</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div>
-                                        <div
-                                            class="uk-card uk-card-small uk-card-secondary uk-card-body uk-border-rounded uk-flex uk-flex-middle">
-                                            <div class="in-symbol-logo">
-                                                <img src="{{ asset('front-end/img/in-lazy.gif') }}"
-                                                    data-src="{{ asset('front-end/img/in-symbol-google.svg') }}"
-                                                    alt="ticker" width="28" height="28" data-uk-img>
-                                            </div>
-                                            <div class="in-price up">
-                                                <h6 class="uk-margin-remove">GOOGL<span class="uk-text-small">1.32%</span>
-                                                </h6>
-                                                <p class="uk-margin-remove"><span
-                                                        class="fas fa-arrow-circle-right fa-xs"></span>$87.34</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="uk-visible@m">
-                                        <div
-                                            class="uk-card uk-card-small uk-card-secondary uk-card-body uk-border-rounded uk-flex uk-flex-middle">
-                                            <div class="in-symbol-logo">
-                                                <img src="{{ asset('front-end/img/in-lazy.gif') }}"
-                                                    data-src="{{ asset('front-end/img/in-symbol-apple.svg') }}"
-                                                    alt="ticker" width="28" height="28" data-uk-img>
-                                            </div>
-                                            <div class="in-price up">
-                                                <h6 class="uk-margin-remove">AAPL<span class="uk-text-small">3.68%</span>
-                                                </h6>
-                                                <p class="uk-margin-remove"><span
-                                                        class="fas fa-arrow-circle-right fa-xs"></span>$129.62</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="in-slide-img">
-                                <img src="{{ asset('front-end/img/in-lazy.gif') }}"
-                                    data-src="{{ asset('front-end/img/in-equity-slide-3.png') }}" alt="image-slide"
-                                    width="652" height="746" data-uk-img>
-                            </div>
-                        </div>
-                    </div>
-                </li>
-                <li class="uk-flex uk-flex-middle">
-                    <div class="uk-container">
-                        <div class="uk-grid-large uk-flex-middle" data-uk-grid>
-                            <div class="uk-width-1-2@s in-slide-text">
-                                <p class="in-badge-text uk-text-small uk-margin-remove-bottom uk-visible@m"><span
-                                        class="uk-label uk-label-success in-label-small">New</span>Trade the
-                                    markets directly with
-                                    leading trading platforms.</p>
-                                <h1 class="uk-heading-small">Demo <span class="in-highlight">page</span> 2.</h1>
-                                <p class="uk-text-lead uk-visible@m">Lorem ipsum dolor sit amet consectetur adipisicing
-                                    elit. Sint fugit expedita inventore quos asperiores quis officiis quibusdam laudantium?
-                                    Nobis a odio culpa praesentium? Est eos commodi quisquam ullam eius eligendi?</p>
-                                <div class="uk-grid-medium uk-child-width-1-3@m uk-child-width-1-2@s uk-margin-medium-top uk-visible@s"
-                                    data-uk-grid>
-                                    <div>
-                                        <div
-                                            class="uk-card uk-card-small uk-card-secondary uk-card-body uk-border-rounded uk-flex uk-flex-middle">
-                                            <div class="in-symbol-logo">
-                                                <img src="{{ asset('front-end/img/in-lazy.gif') }}"
-                                                    data-src="{{ asset('front-end/img/in-symbol-mcdonalds.svg') }}"
-                                                    alt="ticker" width="28" height="28" data-uk-img>
-                                            </div>
-                                            <div class="in-price down">
-                                                <h6 class="uk-margin-remove">MCD<span class="uk-text-small">-1.29%</span>
-                                                </h6>
-                                                <p class="uk-margin-remove"><span
-                                                        class="fas fa-arrow-circle-right fa-xs"></span>$269.47</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div>
-                                        <div
-                                            class="uk-card uk-card-small uk-card-secondary uk-card-body uk-border-rounded uk-flex uk-flex-middle">
-                                            <div class="in-symbol-logo">
-                                                <img src="{{ asset('front-end/img/in-lazy.gif') }}"
-                                                    data-src="{{ asset('front-end/img/in-symbol-amazon.svg') }}"
-                                                    alt="ticker" width="28" height="28" data-uk-img>
-                                            </div>
-                                            <div class="in-price up">
-                                                <h6 class="uk-margin-remove">AMZN<span class="uk-text-small">3.56%</span>
-                                                </h6>
-                                                <p class="uk-margin-remove"><span
-                                                        class="fas fa-arrow-circle-right fa-xs"></span>$86.08</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="uk-visible@m">
-                                        <div
-                                            class="uk-card uk-card-small uk-card-secondary uk-card-body uk-border-rounded uk-flex uk-flex-middle">
-                                            <div class="in-symbol-logo">
-                                                <img src="{{ asset('front-end/img/in-lazy.gif') }}"
-                                                    data-src="{{ asset('front-end/img/in-symbol-microsoft.svg') }}"
-                                                    alt="ticker" width="28" height="28" data-uk-img>
-                                            </div>
-                                            <div class="in-price down">
-                                                <h6 class="uk-margin-remove">MSFT<span class="uk-text-small">-1.18%</span>
-                                                </h6>
-                                                <p class="uk-margin-remove"><span
-                                                        class="fas fa-arrow-circle-right fa-xs"></span>$224.93</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="in-slide-img">
-                                <img src="{{ asset('front-end/img/in-lazy.gif') }}"
-                                    data-src="{{ asset('front-end/img/in-equity-slide-3.png') }}" alt="image-slide"
-                                    width="652" height="746" data-uk-img>
-                            </div>
-                        </div>
-                    </div>
-                </li>
-                <li class="uk-flex uk-flex-middle">
-                    <div class="uk-container">
-                        <div class="uk-grid-large uk-flex-middle" data-uk-grid>
-                            <div class="uk-width-1-2@s in-slide-text">
-                                <p class="in-badge-text uk-text-small uk-margin-remove-bottom uk-visible@m"><span
-                                        class="uk-label uk-label-success in-label-small">New</span>Demo slider 3.</p>
-                                <h1 class="uk-heading-small">Demo <span class="in-highlight">3</span>
-                                    app.</h1>
-                                <p class="uk-text-lead uk-visible@m">Get the most accurate market data, alerts,
-                                    conversions, tools and more — all within the same app.</p>
-                                <div class="uk-grid-medium uk-child-width-1-3@m uk-child-width-1-2@s uk-margin-medium-top uk-visible@s"
-                                    data-uk-grid>
-                                    <div>
-                                        <div
-                                            class="uk-card uk-card-small uk-card-secondary uk-card-body uk-border-rounded uk-flex uk-flex-middle">
-                                            <div class="in-symbol-logo">
-                                                <img src="{{ asset('front-end/img/in-lazy.gif') }}"
-                                                    data-src="{{ asset('front-end/img/in-symbol-tesla.svg') }}"
-                                                    alt="ticker" width="28" height="28" data-uk-img>
-                                            </div>
-                                            <div class="in-price down">
-                                                <h6 class="uk-margin-remove">TSLA<span class="uk-text-small">-1.47%</span>
-                                                </h6>
-                                                <p class="uk-margin-remove"><span
-                                                        class="fas fa-arrow-circle-right fa-xs"></span>$113.06</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div>
-                                        <div
-                                            class="uk-card uk-card-small uk-card-secondary uk-card-body uk-border-rounded uk-flex uk-flex-middle">
-                                            <div class="in-symbol-logo">
-                                                <img src="{{ asset('front-end/img/in-lazy.gif') }}"
-                                                    data-src="{{ asset('front-end/img/in-symbol-google.svg') }}"
-                                                    alt="ticker" width="28" height="28" data-uk-img>
-                                            </div>
-                                            <div class="in-price up">
-                                                <h6 class="uk-margin-remove">GOOGL<span class="uk-text-small">1.32%</span>
-                                                </h6>
-                                                <p class="uk-margin-remove"><span
-                                                        class="fas fa-arrow-circle-right fa-xs"></span>$87.34</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="uk-visible@m">
-                                        <div
-                                            class="uk-card uk-card-small uk-card-secondary uk-card-body uk-border-rounded uk-flex uk-flex-middle">
-                                            <div class="in-symbol-logo">
-                                                <img src="{{ asset('front-end/img/in-lazy.gif') }}"
-                                                    data-src="{{ asset('front-end/img/in-symbol-apple.svg') }}"
-                                                    alt="ticker" width="28" height="28" data-uk-img>
-                                            </div>
-                                            <div class="in-price up">
-                                                <h6 class="uk-margin-remove">AAPL<span class="uk-text-small">3.68%</span>
-                                                </h6>
-                                                <p class="uk-margin-remove"><span
-                                                        class="fas fa-arrow-circle-right fa-xs"></span>$129.62</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="in-slide-img">
-                                <img src="{{ asset('front-end/img/in-lazy.gif') }}"
-                                    data-src="{{ asset('front-end/img/in-equity-slide-3.png') }}" alt="image-slide"
-                                    width="652" height="746" data-uk-img>
-                            </div>
-                        </div>
-                    </div>
-                </li>
-                <li class="uk-flex uk-flex-middle">
-                    <div class="uk-container">
-                        <div class="uk-grid-large uk-flex-middle" data-uk-grid>
-                            <div class="uk-width-1-2@s in-slide-text">
-                                <p class="in-badge-text uk-text-small uk-margin-remove-bottom uk-visible@m"><span
-                                        class="uk-label uk-label-success in-label-small">New</span>Lorem ipsum dolor, sit
-                                    amet consectetur adipisicing elit..</p>
-                                <h1 class="uk-heading-small">Demo <span class="in-highlight">4</span>.</h1>
-                                <p class="uk-text-lead uk-visible@m">Demo slider details.</p>
-                                <div class="uk-grid-medium uk-child-width-1-3@m uk-child-width-1-2@s uk-margin-medium-top uk-visible@s"
-                                    data-uk-grid>
-                                    <div>
-                                        <div
-                                            class="uk-card uk-card-small uk-card-secondary uk-card-body uk-border-rounded uk-flex uk-flex-middle">
-                                            <div class="in-symbol-logo">
-                                                <img src="{{ asset('front-end/img/in-lazy.gif') }}"
-                                                    data-src="{{ asset('front-end/img/in-symbol-mcdonalds.svg') }}"
-                                                    alt="ticker" width="28" height="28" data-uk-img>
-                                            </div>
-                                            <div class="in-price down">
-                                                <h6 class="uk-margin-remove">MCD<span class="uk-text-small">-1.29%</span>
-                                                </h6>
-                                                <p class="uk-margin-remove"><span
-                                                        class="fas fa-arrow-circle-right fa-xs"></span>$269.47</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div>
-                                        <div
-                                            class="uk-card uk-card-small uk-card-secondary uk-card-body uk-border-rounded uk-flex uk-flex-middle">
-                                            <div class="in-symbol-logo">
-                                                <img src="{{ asset('front-end/img/in-lazy.gif') }}"
-                                                    data-src="{{ asset('front-end/img/in-symbol-amazon.svg') }}"
-                                                    alt="ticker" width="28" height="28" data-uk-img>
-                                            </div>
-                                            <div class="in-price up">
-                                                <h6 class="uk-margin-remove">AMZN<span class="uk-text-small">3.56%</span>
-                                                </h6>
-                                                <p class="uk-margin-remove"><span
-                                                        class="fas fa-arrow-circle-right fa-xs"></span>$86.08</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="uk-visible@m">
-                                        <div
-                                            class="uk-card uk-card-small uk-card-secondary uk-card-body uk-border-rounded uk-flex uk-flex-middle">
-                                            <div class="in-symbol-logo">
-                                                <img src="{{ asset('front-end/img/in-lazy.gif') }}"
-                                                    data-src="{{ asset('front-end/img/in-symbol-microsoft.svg') }}"
-                                                    alt="ticker" width="28" height="28" data-uk-img>
-                                            </div>
-                                            <div class="in-price down">
-                                                <h6 class="uk-margin-remove">MSFT<span class="uk-text-small">-1.18%</span>
-                                                </h6>
-                                                <p class="uk-margin-remove"><span
-                                                        class="fas fa-arrow-circle-right fa-xs"></span>$224.93</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="in-slide-img">
-                                <img src="{{ asset('front-end/img/in-lazy.gif') }}"
-                                    data-src="{{ asset('front-end/img/in-equity-slide-3.png') }}" alt="image-slide"
-                                    width="652" height="746" data-uk-img>
-                            </div>
-                        </div>
-                    </div>
-                </li>
-            </ul>
-            <div class="uk-container">
-                <div class="uk-position-relative" data-uk-grid>
-                    <ul class="uk-slideshow-nav uk-dotnav uk-position-bottom-right uk-flex uk-flex-middle"></ul>
-                </div>
-            </div>
-        </div>
-    </div> --}}
-    <!-- slideshow content end -->
+    <style>
+        .carousel-indicators>li {
+            border-radius: 50%;
+            background-clip: initial;
+            width: 19px;
+            height: 1px;
+        }
 
+        .carousel-indicators .active {
+            background-color: #bc5020;
+            opacity: 80%;
+        }
+    </style>
     <div class="bd-example">
-        <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+        <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-ride="carousel">
             <ol class="carousel-indicators">
                 <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
                 <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
@@ -345,6 +59,7 @@
             </a>
         </div>
     </div>
+    <!-- slideshow content end -->
 
 
     <!-- section content begin -->
@@ -352,7 +67,7 @@
         <div class="uk-container">
             <div class="uk-grid">
                 <div class="uk-width-1-1">
-                    <h4>Popular Products</h4>
+                    <h4>Our Services</h4>
                 </div>
             </div>
             <div class="uk-grid-match uk-grid-medium uk-child-width-1-4@m uk-child-width-1-2@s uk-margin-bottom"
@@ -367,7 +82,7 @@
                             Exporting refers to the selling of goods and services from the home country to a foreign
                             nation...
                         </p>
-                        <a href="{{ route('staking') }}"
+                        <a href="javascript:void(0)"
                             class="uk-button uk-button-text uk-float-right uk-position-bottom-right">Explore<i
                                 class="fas fa-arrow-circle-right uk-margin-small-left"></i></a>
                     </div>
@@ -382,7 +97,7 @@
                             Importing refers to the purchase of foreign products and bringing them into one's home
                             country...
                         </p>
-                        <a href="{{ route('forex_trading') }}"
+                        <a href="javascript:void(0)"
                             class="uk-button uk-button-text uk-float-right uk-position-bottom-right">Explore<i
                                 class="fas fa-arrow-circle-right uk-margin-small-left"></i></a>
                     </div>
@@ -397,7 +112,7 @@
                             Manpower is the total number of people who can work to get something done. How quickly you
                             clean...
                         </p>
-                        <a href="{{ route('forex_broker') }}"
+                        <a href="javascript:void(0)"
                             class="uk-button uk-button-text uk-float-right uk-position-bottom-right">Explore<i
                                 class="fas fa-arrow-circle-right uk-margin-small-left"></i></a>
                     </div>
@@ -412,7 +127,7 @@
                             Our company is focused on maximizing returns for our investors by investing their funds in the
                             e-commerce market....
                         </p>
-                        <a href="{{ route('e_commerce') }}"
+                        <a href="javascript:void(0)"
                             class="uk-button uk-button-text uk-float-right uk-position-bottom-right">Explore<i
                                 class="fas fa-arrow-circle-right uk-margin-small-left"></i></a>
                     </div>
@@ -863,9 +578,9 @@
             </div>
         </div>
         <div class="uk-width-1-1@m uk-text-center">
-            <a href="{{ route('all_traders') }}" class="uk-button uk-button-text">See more traders stories from all over
-                the
-                world<i class="fas fa-arrow-circle-right uk-margin-small-left"></i></a>
+            <a href="javascript:void(0)" class="uk-button uk-button-text">
+                See more traders stories from all over the world
+                <i class="fas fa-arrow-circle-right uk-margin-small-left"></i></a>
         </div>
     </div>
     <!-- section content end -->
@@ -874,7 +589,7 @@
     <div class="uk-section" id="contact">
         <div class="uk-container">
             <div class="uk-grid uk-flex uk-flex-center in-contact-6">
-                <div class="uk-width-1-2">
+                <div class="uk-width-1-2@m">
                     <iframe class="uk-width-1-1 uk-height-medium uk-border-rounded"
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10600.5248164368!2d144.95966577016594!3d-37.81707816290683!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65d4c2b349649%3A0xb6899234e561db11!2sEnvato!5e0!3m2!1sen!2sid!4v1645280096951!5m2!1sen!2sid">
                     </iframe>
