@@ -5,12 +5,11 @@
                 <div class="uk-navbar-left">
                     <div class="uk-navbar-item">
                         <a class="uk-logo" href="/">
-                            <img src="{{ asset('front-end/img/RIJVI & RODH GENERAL TRADING LLC-2.png') }}" alt="logo"
-                                width="50" data-uk-img>
+                            <img src="{{ asset('front-end/img/Logo-01.png') }}" alt="logo" width="300" data-uk-img>
 
-                            <span class="uk-h5">
+                            {{-- <span class="uk-h5">
                                 RIJVI & RODH <small class="">GENERAL TRADING LLC</small>
-                            </span>
+                            </span> --}}
                         </a>
                         <ul class="uk-navbar-nav uk-visible@m">
                             <li>

@@ -6,10 +6,10 @@
 
 <nav class="navbar header-navbar pcoded-header" style="background: #bc5020;">
     <div class="navbar-wrapper">
-        <div class="navbar-logo">
+        <div class="navbar-logo" style="background: #020202;">
             @if (auth()->user()->user_type == 'public')
                 <a href="/" class="d-none d-lg-block">
-                    <img class="img-fluid rounded" src="{{ asset('front-end/img/logo.jpg') }}" alt="logo" width="100px">
+                    <img class="img-fluid rounded mt-n2" src="{{ asset('front-end/img/Logo-01.png') }}" alt="logo" width="200">
                 </a>
                 <div class="d-block d-lg-none text-white pt-2">
                     @yield('page-title')
@@ -22,7 +22,7 @@
                 @endif
             @else
                 <a href="/">
-                    <img class="img-fluid rounded" src="{{ asset('front-end/img/logo.jpg') }}" alt="logo" width="100px">
+                    <img class="img-fluid rounded mt-n2" src="{{ asset('front-end/img/Logo-01.png') }}" alt="logo" width="200">
                 </a>
             @endif
 

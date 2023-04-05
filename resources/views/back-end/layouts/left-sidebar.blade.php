@@ -13,7 +13,7 @@
         <nav class="pcoded-navbar">
             <div class="nav-list">
                 <div class="pcoded-inner-navbar main-menu">
-                    <div class="d-flex justify-content-between">
+                    <div class="d-flex justify-content-between mt-2">
                         <div class="col-4">
                             <img class="profile-header-avatar shadow" src="{{ asset('back-end/assets/images/avatar-4.jpg') }}"
                                 alt="RIJVI & RODH">
