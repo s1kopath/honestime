@@ -4,6 +4,7 @@ namespace App\Http\Livewire;
 
 use Livewire\Component;
 use App\Models\SiteSetting as SiteSettingModel;
+use App\Http\Controllers\ImageHandlerController;
 
 class SiteSetting extends Component
 {
@@ -31,14 +32,20 @@ class SiteSetting extends Component
     public function baseSettingUpdate()
     {
         $siteSetting = SiteSettingModel::first();
+        
+        $imageHandler = new ImageHandlerController();
+        $image = base64_encode(file_get_contents($this->favicon->pat‌th()));
+
+        $file_name = $imageHandler->base64Upload($image, 'site');
+
         if ($siteSetting) {
             $siteSetting->title = $this->title;
-            $siteSetting->favicon = $this->favicon;
+            $siteSetting->favicon = $file_name;
             $siteSetting->save();
         } else {
             $newSetting = new SiteSettingModel();
             $newSetting->title = $this->title;
-            $newSetting->favicon = $this->favicon;
+            $newSetting->favicon = $file_name;
             $newSetting->save();
         }
     }

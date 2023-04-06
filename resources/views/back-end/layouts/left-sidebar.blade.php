@@ -209,14 +209,14 @@
                         </li>
                     </ul>
                     
-                    <ul class="pcoded-item pcoded-left-item">
+                    {{-- <ul class="pcoded-item pcoded-left-item">
                         <li class="pcoded-hasmenu {{ $route_name == 'site_setting' ? 'active' : '' }}">
                             <a href="{{ route('site_setting') }}" class="waves-effect waves-dark">
                                 <span class="pcoded-micon"><i class="feather icon-home"></i></span>
                                 <span class="pcoded-mtext">Site Setting</span>
                             </a>
                         </li>
-                    </ul>
+                    </ul> --}}
 
                     <ul class="pcoded-item pcoded-left-item">
                         <li class="pcoded-hasmenu">

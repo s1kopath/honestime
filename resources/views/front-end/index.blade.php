@@ -577,27 +577,31 @@
             <div class="uk-grid uk-flex uk-flex-center in-contact-6">
                 <div class="uk-width-1-2@m">
                     <iframe class="uk-width-1-1 uk-height-medium uk-border-rounded"
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10600.5248164368!2d144.95966577016594!3d-37.81707816290683!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65d4c2b349649%3A0xb6899234e561db11!2sEnvato!5e0!3m2!1sen!2sid!4v1645280096951!5m2!1sen!2sid">
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7215.60498807165!2d55.3286308267257!3d25.277228630572864!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f5c956c599479%3A0xcdb0cdf53b3ac84d!2sHor%20Al%20Anz%20-%20Dubai%20-%20United%20Arab%20Emirates!5e0!3m2!1sen!2sbd!4v1680764223082!5m2!1sen!2sbd">
                     </iframe>
+
+                    
 
                     <hr class="uk-margin-medium">
                     <div class="uk-grid uk-child-width-1-3@m uk-margin-medium-top uk-text-center" data-uk-grid="">
                         <div>
                             <h5 class="uk-margin-remove-bottom text-dark"><i
                                     class="fas fa-map-marker-alt fa-sm uk-margin-small-right"></i>Address</h5>
-                            <p class="uk-margin-small-top">Satrio Tower 16th, Jl. Dr Satrio Kuningan, Jakarta</p>
+                            <p class="uk-margin-small-top">
+                                Plot No - 152, Nooraniyah Building, Hor Al Anz, United Arab Emirates, PO Box No - 94406
+                            </p>
                         </div>
                         <div>
                             <h5 class="uk-margin-remove-bottom text-dark"><i
                                     class="fas fa-envelope fa-sm uk-margin-small-right"></i>Email</h5>
-                            <p class="uk-margin-small-top uk-margin-remove-bottom">hello@company.com</p>
+                            <p class="uk-margin-small-top uk-margin-remove-bottom">rijvi.rodh2022@gmail.com</p>
                             <p class="uk-text-small uk-text-muted uk-text-uppercase uk-margin-remove-top">for public
                                 inquiries</p>
                         </div>
                         <div>
                             <h5 class="uk-margin-remove-bottom text-dark"><i
                                     class="fas fa-phone-alt fa-sm uk-margin-small-right"></i>Call</h5>
-                            <p class="uk-margin-small-top uk-margin-remove-bottom">(888)234-5686</p>
+                            <p class="uk-margin-small-top uk-margin-remove-bottom">+971561261391</p>
                             <p class="uk-text-small uk-text-muted uk-text-uppercase uk-margin-remove-top">Mon - Fri,
                                 9am - 5pm</p>
                         </div>
